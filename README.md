@@ -8,5 +8,5 @@
 - Reponsividade
 
 <div align="center">
-  <img src="./assets/LayoutDesafio#02.png">
+  <img src="./assets/layoutDesafio02.png">
 </div>
