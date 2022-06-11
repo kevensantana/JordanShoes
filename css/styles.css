@@ -49,6 +49,21 @@ li {
   color: #181818;
 }
 
+.desconto{
+    background-color: #181818;
+
+    text-align: center;
+    padding: 1rem;
+
+    color: #F9F9F9;
+    font-size: 1.8rem;
+  }
+  
+  .desconto span{
+  transition: all 2s;
+   transform: translateY(-7px);
+}
+
 #home{
   width: 100%;
   height: 35rem;
@@ -80,22 +95,25 @@ li {
 .conteudo h1{
   font-weight: 700;
   font-size: 3.2rem;
+  margin-bottom: 2rem;
 }
 
 .conteudo p{
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 600;
   width: 55%;
 }
 
 
 #main{
-  background-color: #F9F9F9;;
+  background-color: #F9F9F9;
+  width: 80%;
+  margin: auto;
 }
 
 .destaque{
   text-align: center;
-  padding: 5.8rem 0;
+  padding: 2rem 0;
 }
 
 .destaque h1{
@@ -109,11 +127,36 @@ li {
 }
 
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
 
+  padding: 3rem 0;
 
+}
 
+.card{
+  width: 100%;
+  height: 30rem;
 
+  background-color: #EBE9EA;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 
+  position: relative;
+  z-index: 1;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+}
 
 footer{
 
